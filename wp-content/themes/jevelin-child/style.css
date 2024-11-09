@@ -1,0 +1,22 @@
+/*
+Theme Name: Jevelin Child
+Description: Child theme for Jevelin theme
+Author: Shufflehound
+Author URI: http://shufflehound.com
+Template: jevelin
+*/
+
+/* Add your custom CSS below */
+
+header.primary-desktop-light .sh-header-top-10 .header-contacts-details-large {
+	color: #373737;
+}
+
+.sh-footer .sh-copyrights {
+	background-color: #4C4C4C;
+	color: #fff;
+}
+
+.sh-footer .sh-copyrights a {
+	color: #fff;
+}
