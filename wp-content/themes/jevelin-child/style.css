@@ -8,8 +8,8 @@ Template: jevelin
 
 /* Add your custom CSS below */
 
-header.primary-desktop-light .sh-header-top-10 .header-contacts-details-large {
-	color: #373737;
+header.primary-desktop-light .sh-header-top-10 .header-contacts-details-large a {
+	color: #fff;
 }
 
 .sh-footer .sh-copyrights {
@@ -19,4 +19,8 @@ header.primary-desktop-light .sh-header-top-10 .header-contacts-details-large {
 
 .sh-footer .sh-copyrights a {
 	color: #fff;
+}
+
+sr7-mask {
+	background-color: #373737;
 }
