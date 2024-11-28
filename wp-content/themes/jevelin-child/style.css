@@ -36,3 +36,72 @@ sr7-mask {
 		display: none !important;	
 	}
 }
+
+/** MENU MOBILE **/
+@media screen and (max-width: 800px) {
+	.primary-mobile-light .sh-header-mobile:not(.sh-sticky-mobile-header-active) .sh-nav > li.menu-item a {
+		line-height: 20px;
+	}
+	
+	.primary-mobile-light .sh-header-mobile:not(.sh-sticky-mobile-header-active) .sh-nav > li.sh-nav-social > a img {
+		filter: invert(1);	
+	}	
+	
+	.primary-mobile-light .sh-header-mobile:not(.sh-sticky-mobile-header-active) .sh-nav > li.sh-nav-social > a {
+		padding: 5px;
+        line-height: 1;
+        margin-top: -5px;
+	}	
+	
+	.primary-mobile-light .sh-header-mobile:not(.sh-sticky-mobile-header-active) .sh-nav > li.sh-nav-social > a.sh-nav-icon .sh-icon {
+		margin-top: -5px;
+	}
+	
+	.primary-mobile-light .sh-header-mobile:not(.sh-sticky-mobile-header-active) .sh-nav > li > a, 
+	.primary-mobile-light .sh-header-mobile:not(.sh-sticky-mobile-header-active) .sh-nav > li.menu-item.sh-nav-social .sh-icon-data {
+		font-size: 20px !important;
+	}
+}
+
+.hole {
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-weight: 300;
+    border: 1px solid #fff;
+    margin-right: 5px;
+}
+
+.hole--white {
+	background-color: #fff;
+    color: #000;
+}
+
+.hole--yellow {
+	background-color: yellow;
+    color: #000;
+}
+
+ .hole--red {
+	 background-color: red;
+	 color: #fff;
+}
+
+.hole--green {
+	background-color: green;
+	color: #fff;
+}
+
+.hole--blue {
+	background-color: blue;
+	color: #fff;
+}
+
+.hole--orange {
+	background-color: #ff7b00;
+	color: #fff;
+}
